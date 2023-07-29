@@ -1,0 +1,46 @@
+@keyframes animateSvg {
+    to{
+        transform: translate(-50% , -10px);
+    }
+}
+@keyframes animateup {
+    to{
+        transform: translate( -10px);
+    }
+}
+
+@keyframes html {
+    0%{
+        width: 0;
+    }100%{
+        width: 90%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+}
+@keyframes js {
+    0%{
+        width: 0;
+    }100%{
+        width: 80%;
+    }
+}
+@keyframes py {
+    0%{
+        width: 0;
+    }100%{
+        width: 70%;
+    }
+}
+@keyframes mo {
+    0%{
+        width: 0;
+    }100%{
+        width: 60%;
+    }
+}

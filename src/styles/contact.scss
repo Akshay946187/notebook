@@ -1,0 +1,61 @@
+#contact{
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: $color3_light;
+
+    >section{
+        background-color:$color1;
+        width: 100%;
+        height: 100%;
+        >form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+
+            >h2{
+                text-align: center;
+                font: 100 2.7rem ;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+                margin: 2rem;
+            }
+            >input,
+            >button{
+                padding: 0.8rem;
+                width: 40%;
+                outline: none;
+                font: 400 0.9rem;
+                margin: 1rem;
+                border: none;
+                color: black;
+            }
+            >button{
+                cursor: pointer;
+                background-color: $color3;
+                color: $color4;
+                margin: 3rem;
+                &:hover{
+                    box-shadow: 0 0 5px #ff96ad , 0 0 25px #ff96ad , 0 0 50px #ff96ad , 0 0 200px #ff96ad;
+                }
+            }
+        }
+    }
+    >aside{
+        width: 100%;
+        height: 100%;
+        background-color: $color5;
+        display: grid;
+        place-items: center;
+        >img{
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+            filter: drop-shadow(0 0 10px rgba(0,0,0,0.955));
+            filter: contrast(200%);
+            animation: animateup 0.7s infinite linear alternate;
+        }
+    }
+}

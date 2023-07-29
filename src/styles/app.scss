@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto:wght@300&display=swap');
+@import "static";
+@import 'animations';
+@import 'header';
+@import 'home';
+@import 'work';
+@import 'contact';
+@import 'footer';
+@import 'skills.scss';
+@import "mediaquery.scss";
+@import "miniNav.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: $color1;
+    overflow-x: hidden;
+}
+.disableBtn{
+    background-color: rgba(237,237,237,0.5);
+    cursor: not-allowed;
+}
